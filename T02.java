@@ -1,5 +1,6 @@
 // 12S24001-Fredrick Laurensius Aritonang
 // 12S24019-Winda N.V Sitorus
+
 import java.util.*;
 import java.lang.Math;
 
@@ -35,6 +36,8 @@ public class T02 {
                     } else {
                         if (rating1 < 3.0) {
                             kategori = "Low";
+                        } else {
+                            kategori = "";
                         }
                     }
                 }
@@ -47,4 +50,3 @@ public class T02 {
         return String.format("%." + digits + "f", value);
     }
 }
-
